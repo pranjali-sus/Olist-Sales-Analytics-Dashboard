@@ -178,7 +178,7 @@ The dataset was cleaned and transformed using Power Query:
 
 
 
-!\[Dashboard Screenshot](dashboard.png)
+!\[Olist Dashboard](Olist Dashboard.png)
 
 
 
