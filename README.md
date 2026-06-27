@@ -1,238 +1,188 @@
-\# Olist E-Commerce Sales Analytics Dashboard
+# 📊 Olist E-Commerce Sales Analytics Dashboard
 
+An interactive **Power BI dashboard** built using the **Brazilian Olist E-Commerce Dataset** to analyze sales performance, customer behavior, logistics efficiency, payment trends, and customer satisfaction. The project transforms raw transactional data into actionable business insights through data cleaning, data modeling, DAX calculations, and interactive visualizations.
 
+---
 
-\## Project Overview
+## 📌 Project Overview
 
+The objective of this project is to help business stakeholders monitor key performance indicators (KPIs), identify sales trends, evaluate operational efficiency, and make data-driven decisions using an interactive Business Intelligence dashboard.
 
+This dashboard provides insights into:
 
-This project presents an interactive \*\*Sales Analytics Dashboard\*\* built using \*\*Power BI\*\* on the Brazilian Olist E-Commerce Dataset. The dashboard provides insights into business performance, customer behavior, logistics efficiency, payment preferences, and customer satisfaction.
+- Sales performance
+- Customer purchasing behavior
+- Payment preferences
+- Regional sales distribution
+- Delivery performance
+- Customer satisfaction
 
+---
 
+## 🎯 Business Problem
 
-The objective of this project is to transform raw e-commerce data into meaningful business insights through data cleaning, modeling, DAX calculations, and interactive visualizations.
+E-commerce businesses generate large volumes of transactional data every day. Without proper analysis, it becomes difficult to:
 
+- Track revenue growth
+- Identify high-performing regions
+- Understand customer purchasing behavior
+- Monitor delivery efficiency
+- Measure customer satisfaction
+- Make informed business decisions
 
+This dashboard addresses these challenges by presenting important business metrics in a single interactive report.
 
-\---
+---
 
+## 📂 Dataset
 
+**Dataset:** Brazilian Olist E-Commerce Dataset
 
-\## Tools \& Technologies
+The project uses multiple relational tables including:
 
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
 
+The dataset contains approximately **100,000+ orders** from Brazilian e-commerce transactions.
 
-\* Power BI
+---
 
-\* Power Query
+## 🛠️ Tools & Technologies
 
-\* DAX (Data Analysis Expressions)
+| Tool | Purpose |
+|------|----------|
+| Power BI | Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | KPI Calculations & Business Metrics |
+| Data Modeling | Relationship Management |
+| Olist Dataset | Business Data Source |
 
-\* Data Modeling
+---
 
-\* Olist E-Commerce Dataset
+## 🧹 Data Cleaning & Preparation
 
+The data was cleaned and transformed using **Power Query**.
 
+Key preprocessing steps included:
 
-\---
+- Removed duplicate records
+- Handled missing values
+- Corrected data types
+- Created Date Table
+- Built relationships between tables
+- Optimized data model
+- Created calculated columns
+- Developed DAX measures
 
+---
 
+## 📈 Key Performance Indicators (KPIs)
 
-\## Key Performance Indicators (KPIs)
+The dashboard tracks the following KPIs:
 
+- 💰 Total Revenue
+- 📦 Total Orders
+- 👥 Total Customers
+- 🛒 Total Products Sold
+- 💵 Average Order Value (AOV)
+- ⭐ Average Review Score
 
+---
 
-\* Total Revenue
+## 📊 Dashboard Features
 
-\* Total Orders
+### 📈 Sales Analysis
+- Monthly & Yearly Sales Trend
+- Revenue Growth Analysis
+- Order Trend
 
-\* Total Customers
+### 🌍 Geographic Analysis
+- Revenue by State
+- Regional Performance Comparison
 
-\* Products Sold
+### 💳 Payment Analysis
+- Payment Method Distribution
+- Customer Payment Preferences
 
-\* Average Order Value (AOV)
+### 🚚 Logistics Analysis
+- Average Delivery Days by State
+- Delivery Performance Comparison
 
-\* Average Review Score
+### ⭐ Customer Satisfaction
+- Review Score Distribution
+- Customer Rating Analysis
 
+### 🎛 Interactive Dashboard
+- Year Filter
+- Dynamic Visual Cross Filtering
+- Interactive KPI Monitoring
 
+---
 
-\---
+## 💡 Key Business Insights
 
+- Generated **₹2M+ revenue** across approximately **96K orders**.
+- Sao Paulo contributed the highest revenue among all Brazilian states.
+- Credit Card was the most preferred payment method.
+- More than **55%** of customers provided **5-star reviews**, indicating high customer satisfaction.
+- Certain northern states experienced comparatively higher delivery times, highlighting opportunities for logistics optimization.
 
+---
 
-\## Dashboard Features
+## 📷 Dashboard Preview
 
+![Dashboard Preview](dashboard.png)
 
+---
 
-\### 1. Sales Trend Analysis
 
+## 🚀 Skills Demonstrated
 
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Calculations
+- Business Intelligence
+- KPI Development
+- Dashboard Design
+- Interactive Reporting
+- Data Visualization
+- Analytical Storytelling
 
-\* Monthly sales trend visualization
+---
 
-\* Identifies growth patterns and seasonal fluctuations
+## 📈 Business Value
 
+This dashboard enables businesses to:
 
+- Monitor overall sales performance
+- Identify high-performing regions
+- Understand customer purchasing behavior
+- Improve delivery efficiency
+- Analyze customer satisfaction
+- Support data-driven decision making
 
-\### 2. Geographic Analysis
+---
 
+## 📌 Future Improvements
 
+- Sales Forecasting
+- Drill-through Reports
 
-\* Revenue by State
+---
 
-\* Highlights top-performing regions
+## 👩‍💻 Author
 
+**Pranjali Sus**
 
+Aspiring Data Analyst | Business Intelligence | Power BI | SQL | Python
 
-\### 3. Payment Behavior Analysis
+---
 
-
-
-\* Distribution of payment methods
-
-\* Identifies customer payment preferences
-
-
-
-\### 4. Logistics Performance
-
-
-
-\* Average Delivery Days by State
-
-\* Helps identify regions with longer delivery times
-
-
-
-\### 5. Customer Satisfaction Analysis
-
-
-
-\* Review Score Distribution
-
-\* Measures customer experience and service quality
-
-
-
-\### 6. Interactive Filtering
-
-
-
-\* Year-wise filtering
-
-\* Dynamic visual updates across the dashboard
-
-
-
-\---
-
-
-
-\## Key Insights
-
-
-
-\* Generated over ₹2M in revenue across 96K orders.
-
-\* São Paulo contributed the highest revenue among all states.
-
-\* Credit cards were the most preferred payment method.
-
-\* More than 55% of customers provided 5-star reviews.
-
-\* Certain northern states experienced significantly higher delivery times.
-
-
-
-\---
-
-
-
-\## Data Cleaning \& Preparation
-
-
-
-The dataset was cleaned and transformed using Power Query:
-
-
-
-\* Removed duplicate records
-
-\* Handled missing values
-
-\* Created a Date Table for time-based analysis
-
-\* Established relationships between multiple tables
-
-\* Created DAX measures for KPIs and business metrics
-
-\* Optimized data model for reporting
-
-
-
-\---
-
-
-
-\## Dashboard Preview
-
-
-
-!\[Olist Dashboard](Olist Dashboard.png)
-
-
-
-\---
-
-
-
-\## Skills Demonstrated
-
-
-
-\* Data Cleaning
-
-\* Data Modeling
-
-\* DAX Calculations
-
-\* Business Intelligence
-
-\* KPI Development
-
-\* Interactive Dashboard Design
-
-\* Data Visualization
-
-\* Analytical Storytelling
-
-
-
-\---
-
-
-
-\## Dataset
-
-
-
-Dataset Source: Olist Brazilian E-Commerce Dataset
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Pranjali Sus\*\*
-
-
-
-Aspiring Data Analyst | Power BI | SQL | Python | Data Visualization
-
-
-
+## ⭐ If you found this project useful, consider giving this repository a star!
