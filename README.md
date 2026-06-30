@@ -65,7 +65,7 @@ The dataset contains approximately **100,000+ orders** from Brazilian e-commerce
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 The data was cleaned and transformed using **Power Query**.
 
@@ -135,7 +135,7 @@ The dashboard tracks the following KPIs:
 
 ---
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard Preview](Dashboard.png)
 
